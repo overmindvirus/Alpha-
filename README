@@ -1,0 +1,24 @@
+Alpha  	
+	by WookJin Jang and Chris Gradwohl
+
+Goal:
+
+This program can play a human 1 vs 1 in a game of Texas Holdem. At a high level the program has two main features:
+
+1.	Calculate the probability of poker hands based on different stages of games play, and 		from this information deduce an optimum betting strategy. 
+
+2. 	The ability to Bluff based on a number of previously determined Bluff Types. 
+
+From theses ‘base’ features several interesting features can follow, i.e. Machine Learning integration for exotic bluff types, ELO rating for different betting strategies, etc. 
+
+Progression of Development (V1.0)
+
+We need some underlying ADTs to build the poker environment.
+class Deck
+class Table
+class Player 
+
+In addition to these base ADTs we may need to build more.
+We also need to build efficient operations and test them, so that when we move to gameplay our foundation is solid. 
+
+2.  We need some kind of interface to test gameplay element. 
